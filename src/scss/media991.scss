@@ -1,0 +1,329 @@
+@media screen and (max-width: 991px) {
+
+	.container {
+		max-width: 780px;
+	}
+
+
+
+
+	// HEADER
+
+	.header {
+	}
+	.container {
+	}
+	.header-wrapper {
+	}
+	.header-logo {
+	}
+	.header-list {
+    background: #5b7fff;
+    height: 100vh;
+    margin-right: 0;
+		flex-direction: column;
+    align-items: center;
+		width: 286px;
+		padding-top: 80px;
+		margin-left: auto;
+	
+			&__item {
+				margin-right: 0;
+				width: 100%;
+				text-align: center;
+				display: flex;
+				justify-content: space-around;
+				a {
+					font-size: 18px;
+					color: #FFFFFF;
+					display: flex;
+					align-items: center;
+					justify-content: space-around;
+					width: 100%;
+					height: 51px;
+				}
+			}
+	}
+	.header-list__wrapper {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+    top: 0;
+    right: 0;
+		z-index: 9;
+		transform: translateX(100%);
+		transition: transform .3s;
+
+	}
+	.header-list__wrapper.active {
+		transform: translateX(0);
+	}
+	.header-phone {
+		margin-right: 0;
+	}
+	.header-btn {
+		display: none;
+	}
+	.btn {
+	}
+	.btn-contact {
+	}
+
+	.header-btn_mobile {
+		display: block;
+		font-size: 18px;
+		padding: 17px 46px;
+		margin-bottom: 25px;
+	}
+
+	.header-btn_burger {
+		width: 29.27px;
+		height: 23px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		cursor: pointer;
+		margin-left: 23px;
+		z-index: 9;
+		&:before, &:after {
+			content: '';
+			background: #08089A;
+			width: 100%;
+			height: 4px;
+			display: block;
+			border-radius: 3px;
+		}
+		&.active {
+			.header-btn_burger-span, &:before, &:after {
+				background: #fff;
+			}
+		}
+	}
+	
+
+	.header-btn_burger-span {
+		background: #08089A;
+		width: 100%;
+		height: 4px;
+		display: block;
+		border-radius: 3px;
+	}
+	
+
+
+
+	// SECTION HERO
+
+	.hero {
+	}
+	.container {
+	}
+	.hero-wrapper {
+	}
+	.hero-left {
+	}
+	.hero-title {
+	}
+	.hero-subtitle {
+	}
+	.hero-btn {
+	}
+	.btn {
+	}
+	.btn-contact {
+	}
+	.hero-right {
+	}
+	.hero-svg {
+	}
+
+
+
+
+	// SECTION SERVICE
+
+	.service {
+	}
+	.container {
+	}
+	.service-title {
+	}
+	.service-wrapper {
+	}
+	.service-item {
+	
+			&__title {
+			}
+	
+			&__subtitle {
+			}
+	
+			&__price {
+			}
+	}
+
+
+
+
+	// SECTION PORTFOLIO
+
+	.portfolio {
+	}
+	.container {
+	}
+	.portfolio-title {
+	}
+	.portfolio-subtitle {
+	}
+	.portfolio-wrapper {
+	}
+	.portfolio-slider {
+	}
+	.portfolio-item {
+		img {
+			max-width: 223px;
+		}
+		a:before {
+		}
+	}
+	.portfolio-arrow {
+	
+			&__wrapper {
+				svg {
+				}
+			}
+	
+			&__left {
+			}
+	
+			&__right {
+			}
+	}
+	
+
+
+
+	// SECTION STEPS
+
+	.steps {
+	}
+	.container {
+	}
+	.steps-title {
+	}
+	.steps-wrapper {
+	}
+	.steps-item {
+			&__num {
+			}
+	
+			&__title {
+			}
+	
+			&__subtitle {
+			}
+	}
+	.animation {
+	}
+	.steps-vert {
+	
+			&__vert1 {
+			}
+	
+			&__vert2 {
+			}
+	}
+	.steps-horiz {
+	}
+	.steps-btn {
+	}
+	.btn {
+	}
+	.btn-contact {
+	}
+
+
+
+
+	// ADVANTAGES SECTION
+
+	.advantage {
+	}
+	.container {
+	}
+	.advantage-title {
+	}
+	.advantage-wrapper {
+	}
+	.advantage-item {
+	
+			&__img {
+			}
+	
+			&__title {
+			}
+	
+			&__subtitle {
+			}
+	}
+
+
+
+
+	// SECTION CONTACT
+
+	.contact {
+	}
+	.container {
+	}
+	.contact-title {
+	}
+	.contact-subtitle {
+	}
+	.contact-schedule {
+	
+			&__span {
+			}
+	}
+	.contact-wrapper {
+	}
+	.contact-item {
+		flex-basis: 23.855%;
+			svg {
+			}
+			&__text {
+			}
+	}
+
+
+
+
+	// SECTION FOOTER
+
+	.footer {
+	}
+	.container {
+	}
+	.footer-wrapper {
+	}
+	.footer-left {
+	}
+	.footer-logo {
+	}
+	.footer-title {
+	}
+	.footer-subtitle {
+	}
+	.footer-right {
+		margin-right: 0;
+	}
+	.footer-menu {
+	
+			&__item {
+				&:nth-child(1) {
+    			width: 146%;
+				}
+			}
+	}
+
+}

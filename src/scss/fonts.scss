@@ -1,0 +1,350 @@
+@font-face {
+	font-family: 'Nunito-Regular';
+	src: url('../fonts/Nunito-Regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/Nunito-Regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+	url('../fonts/Nunito-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/Nunito-Regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+	url('../fonts/Nunito-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/Nunito-Regular.svg#Nunito') format('svg'); /* Chrome < 4, Legacy iOS */
+	font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nunito-ExtraBold';
+	src: url('../fonts/Nunito-ExtraBold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/Nunito-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+	url('../fonts/Nunito-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/Nunito-ExtraBold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+	url('../fonts/Nunito-ExtraBold.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/Nunito-ExtraBold.svg#Nunito') format('svg'); /* Chrome < 4, Legacy iOS */
+	font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nunito-SemiBold';
+	src: url('../fonts/Nunito-SemiBold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/Nunito-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+	url('../fonts/Nunito-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/Nunito-SemiBold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+	url('../fonts/Nunito-SemiBold.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/Nunito-SemiBold.svg#Nunito') format('svg'); /* Chrome < 4, Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nunito-Bold';
+	src: url('../fonts/Nunito-Bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/Nunito-Bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+	url('../fonts/Nunito-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/Nunito-Bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+	url('../fonts/Nunito-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/Nunito-Bold.svg#') format('svg'); /* Chrome < 4, Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nunito-Light';
+	src: url('../fonts/Nunito-Light.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/Nunito-Light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+	url('../fonts/Nunito-Light.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/Nunito-Light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+	url('../fonts/Nunito-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/Nunito-Light.svg#Nunito') format('svg'); /* Chrome < 4, Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@mixin title {
+  font-family: 'Nunito-Bold', sans-serif;
+  font-weight: 700;
+	letter-spacing: -0.7px;
+}
+
+@mixin semibold {
+  font-family: 'Nunito-SemiBold', sans-serif;
+  font-weight: 500;
+}
+
+@mixin exbold {
+  font-family: 'Nunito-ExtraBold', sans-serif;
+  font-weight: 800;
+}
+
+@mixin light {
+  font-family: 'Nunito-Light', sans-serif;
+  font-weight: 300;
+}
+
+@mixin reg {
+  font-family: 'Nunito-Regular', sans-serif;
+  font-weight: 400;
+}
+
+// @mixin light {
+//   font-family: 'MuseoSansCyrl-300', sans-serif;
+//   font-weight: 300;
+// }
+
+// @mixin medium {
+//   font-family: 'MuseoSansCyrl-500', sans-serif;
+//   font-weight: 500;
+// }
+
+// @mixin bbold {
+//   font-family: 'MuseoSansCyrl-900', sans-serif;
+//   font-weight: 900;
+// }
+
+
+:focus::-webkit-input-placeholder {
+  color: transparent!important;
+}
+
+:focus::-moz-placeholder {
+  color: transparent!important;
+}
+
+:focus:-moz-placeholder {
+  color: transparent!important;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent!important;
+}
+
+
+.form-item__input::-webkit-input-placeholder {
+  color: rgba(16, 16, 16, 0.3);
+  font-family: 'Nunito-SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+.form-item__input:-moz-placeholder {
+  color: rgba(16, 16, 16, 0.3);
+  font-family: 'Nunito-SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+.form-item__input::-moz-placeholder {
+  color: rgba(16, 16, 16, 0.3);
+  font-family: 'Nunito-SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+.form-item__input:-ms-input-placeholder {
+  color: #ffffff;
+  font-family: 'Nunito-SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+
+
+
+.popup-form__item__input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: 'Nunito-SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+.popup-form__item__input:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: 'Nunito-SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+.popup-form__item__input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: 'Nunito-SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+.popup-form__item__input:-ms-input-placeholder {
+  color: #ffffff;
+  font-family: 'Nunito-SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+
+
+@mixin green {
+	background: -webkit-linear-gradient(rgba(154, 246, 104, 1), rgba(189, 248, 107, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin blue {
+	background: linear-gradient(90deg, #CA4B90 0%, #632AB6 100%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+@keyframes fadein03 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.3;
+  }
+}
+
+@keyframes fadein01 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.1;
+  }
+}
+
+@keyframes cursor {
+  from {
+		transform: translate3d(15px, 15px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+@keyframes drop {
+  from {
+		transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadein10 {
+  0% {
+    opacity: 0;
+  }
+	5% {
+		opacity: 1;
+	}
+	95% {
+		opacity: 1;
+	}
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+	}
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes press {
+  0% {
+    transform: translate3d(0, 0, 0) skew(0, 0);
+	}
+  25% {
+    transform: translate3d(-38%, -14%, 0) skew(5deg,	4deg);
+  }
+	50% {
+		transform: translate3d(0, 0, 0) skew(0, 0);
+	}
+	75% {
+		transform: translate3d(-2%, 15%, 0) skew(-17deg,9deg)
+	}
+	100% {
+    transform: translate3d(0, 0, 0) skew(0, 0);
+	}
+}
+
+@keyframes fill {
+  0% {
+
+	}
+  100% {
+    fill: #ffffff;
+  }
+}
+
+@keyframes bounce {
+  0% {
+		transform: translateY(0);
+	}
+  33% {
+		transform: translateY(-50%);
+  }
+	66% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeLeft {
+  from {
+    transform: translateX(-100%);
+		opacity: 0;
+  }
+  to {
+		transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeLeftGoriz {
+  from {
+    transform: translateX(-150%);
+		opacity: 0;
+  }
+  to {
+		transform: translateX(-50%);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeTop {
+  from {
+    transform: translateY(-100%);
+		opacity: 0;
+  }
+  to {
+		transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeRight {
+  from {
+    transform: translateX(100%);
+		opacity: 0;
+  }
+  to {
+		transform: translateX(0);
+    opacity: 1;
+  }
+}
